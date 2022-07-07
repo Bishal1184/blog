@@ -33,10 +33,10 @@ body {
 .sticky + .content {
   padding-top: 102px;
 }
-.Dashboardheading{
+#User_id{
     
     display: inline-block;
-    text-align: center;
+    text-align: right;
 }
 </style>
 </head>
@@ -53,20 +53,7 @@ body {
 </div>
 
 
-<script>
-window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 
 </body>
 </html>
